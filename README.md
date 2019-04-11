@@ -1,4 +1,4 @@
-[![ProjectVideo](https://sdim.gr/RnD/project_video_with_overlay.mp4)](https://sdim.gr/RnD/project_video_with_overlay.mp4)
+[![Click HERE to view the video with the project output](https://sdim.gr/RnD/project_video_with_overlay.mp4)](https://sdim.gr/RnD/project_video_with_overlay.mp4)
 
 ## Advanced Lane Finding Project
 
@@ -54,7 +54,7 @@ I then used the output `objpoints` and `imgpoints` to compute the camera calibra
 #### 1. Provide an example of a distortion-corrected image.
 
 To demonstrate this step, I will describe how I apply the distortion correction to one of the test images like this one:
-![Undistorted test image][./images/UndistortedTestImage.png]
+![Undistorted test image](./images/UndistortedTestImage.png)
 
 #### 2. Describe how (and identify where in your code) you used color transforms, gradients or other methods to create a thresholded binary image.  Provide an example of a binary image result.
 
@@ -62,7 +62,7 @@ I used a combination of color and gradient thresholds to generate a binary image
 
 Aside the lesson functions, I created additional functions that use the S channel from the HLS color space and the Y channel from the CMYK color space. The Y channel makes the yellow line easier to filter.
 
-![binary image][./images/BinaryTest.png]
+![binary image](./images/BinaryTest.png)
 
 #### 3. Describe how (and identify where in your code) you performed a perspective transform and provide an example of a transformed image.
 
@@ -84,7 +84,7 @@ This resulted in the following source and destination points:
 
 I verified that my perspective transform was working as expected by drawing the `src` and `dst` points onto a test image and its warped counterpart to verify that the lines appear parallel in the warped image.
 
-![Unwrap test image][./images/UnwrapTestImage.png]
+![Unwrap test image](./images/UnwrapTestImage.png)
 
 #### 4. Describe how (and identify where in your code) you identified lane-line pixels and fit their positions with a polynomial?
 
@@ -97,7 +97,7 @@ I improved the code given in the lessons by adding the following features:
 
 Then I did some other stuff and fit my lane lines with a 2nd order polynomial in the Line class, in code cell #46. The result is like this:
 
-![polyfit][./images/polfit.png]
+![polyfit](./images/polfit.png)
 
 #### 5. Describe how (and identify where in your code) you calculated the radius of curvature of the lane and the position of the vehicle with respect to center.
 
@@ -108,7 +108,7 @@ In the update method of the Line() class, the self.radius_of_curvature and self.
 
 I implemented this step in code cell #48 in the jupyter notebook  in  in the function `processFrame(image)`.  Here is an example of my result on a test image:
 
-![polyfit][./images/processedFrame.png]
+![polyfit](./images/processedFrame.png)
 
 ---
 
@@ -117,7 +117,7 @@ I implemented this step in code cell #48 in the jupyter notebook  in  in the fun
 #### 1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!).
 
 Here's a my final video output.
-[link to my video result](./project_video_with_overlay.mp4)
+[link to my video result](https://sdim.gr/RnD/project_video_with_overlay.mp4)
 
 ---
 
