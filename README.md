@@ -1,7 +1,5 @@
-<video width=1280 height=720 controls>
-  <source type="video/mp4" src="https://sdim.gr/RnD/project_video_with_overlay.mp4">
-</video>
-[projectvideo]:(https://sdim.gr/RnD/project_video_with_overlay.mp4)
+[![ProjectVideo](https://sdim.gr/RnD/project_video_with_overlay.mp4)](https://sdim.gr/RnD/project_video_with_overlay.mp4)
+
 ## Advanced Lane Finding Project
 
 
@@ -48,7 +46,7 @@ I start by preparing "object points", which will be the (x, y, z) coordinates of
 
 I then used the output `objpoints` and `imgpoints` to compute the camera calibration and distortion coefficients using the `cv2.calibrateCamera()` function.  I applied this distortion correction to the test image using the `cv2.undistort()` function and obtained this result: 
 
-![Undistorted checkboard image][./images/UndistortedCheckboard.png]
+![Undistorted checkboard image](./images/UndistortedCheckboard.png)
 
 
 ### Pipeline (single images)
