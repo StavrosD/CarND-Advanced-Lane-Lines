@@ -1,5 +1,5 @@
-<video width="320" height="240" controls>
-  <source type="video/mp4" src="https://github.com/StavrosD/CarND-Advanced-Lane-Lines/blob/master/project_video_with_overlay.mp4">
+<video controls>
+  <source type="video/mp4" src="http://sdim.gr/RnD/project_video_with_overlay.mp4">
 </video>
 ## Advanced Lane Finding Project
 
