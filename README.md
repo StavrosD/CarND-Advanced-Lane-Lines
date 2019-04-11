@@ -1,6 +1,7 @@
-<video controls>
-  <source type="video/mp4" src="http://sdim.gr/RnD/project_video_with_overlay.mp4">
+<video width=1280 height=720 controls>
+  <source type="video/mp4" src="https://sdim.gr/RnD/project_video_with_overlay.mp4">
 </video>
+[projectvideo]:(https://sdim.gr/RnD/project_video_with_overlay.mp4)
 ## Advanced Lane Finding Project
 
 
